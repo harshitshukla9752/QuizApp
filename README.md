@@ -1,89 +1,97 @@
-📝 Online Quiz App (Console-Based)
-📌 Overview
+# 📝 Online Quiz App (Console-Based)
 
-This is a Java console-based Quiz Application that allows users to attempt multiple-choice questions, validates their answers, and calculates their score at the end.
+## 📌 Overview
 
-The project demonstrates loops, collections, control flow, and basic OOP concepts in Java.
+This is a **Java console-based Quiz Application** that allows users to
+attempt multiple-choice questions, validates their answers, and
+calculates their score at the end.
 
-⚙️ Features
+The project demonstrates **loops, collections, control flow, and basic
+OOP concepts** in Java.
 
-Multiple-choice quiz questions
+------------------------------------------------------------------------
 
-Displays options and accepts user input
+## ⚙️ Features
 
-Validates correct/incorrect answers
+-   Multiple-choice quiz questions\
+-   Displays options and accepts user input\
+-   Validates correct/incorrect answers\
+-   Calculates and displays final score\
+-   Uses **OOP (Question class)** for modular design\
+-   Demonstrates use of **Collections (ArrayList, List)**
 
-Calculates and displays final score
+------------------------------------------------------------------------
 
-Uses OOP (Question class) for modular design
+## 🛠️ Tools & Technologies
 
-Demonstrates use of Collections (ArrayList, List)
+-   **Language:** Java\
+-   **IDE:** IntelliJ IDEA / Eclipse / VS Code\
+-   **Concepts Used:**
+    -   Loops (for, while)\
+    -   Control flow (if-else, switch)\
+    -   Collections (ArrayList, List)\
+    -   Object-Oriented Programming (Class, Objects)
 
-🛠️ Tools & Technologies
+------------------------------------------------------------------------
 
-Language: Java
+## 🚀 How to Run
 
-IDE: IntelliJ IDEA / Eclipse / VS Code
+1.  Clone this repository or copy the code.\
 
-Concepts Used:
+2.  Open project in your IDE.\
 
-Loops (for, while)
+3.  Compile both files:
 
-Control flow (if-else, switch)
+    ``` bash
+    javac Question.java QuizApp.java
+    ```
 
-Collections (ArrayList, List)
+4.  Run the program:
 
-Object-Oriented Programming (Class, Objects)
+    ``` bash
+    java QuizApp
+    ```
 
-🚀 How to Run
+------------------------------------------------------------------------
 
-Clone this repository or copy the code.
+## 📸 Sample Output
 
-Open project in your IDE.
+    ===== Welcome to Java Quiz =====
 
-Compile both files:
+    Q1: Which loop is used when number of iterations is known?
+    1. while
+    2. do-while
+    3. for
+    4. foreach
+    Enter your choice (1-4): 3
+    ✅ Correct!
 
-javac Question.java QuizApp.java
+    Q2: Which collection class allows dynamic arrays in Java?
+    1. Array
+    2. ArrayList
+    3. HashMap
+    4. Set
+    Enter your choice (1-4): 2
+    ✅ Correct!
 
+    Q3: Which statement is faster for multiple conditions?
+    1. if-else
+    2. switch-case
+    3. ternary
+    4. goto
+    Enter your choice (1-4): 1
+    ❌ Wrong!
 
-Run the program:
+    ===== Quiz Finished =====
+    Your Score: 2/3
 
-java QuizApp
+------------------------------------------------------------------------
 
-📸 Sample Output
-===== Welcome to Java Quiz =====
+## 🎯 Outcome
 
-Q1: Which loop is used when number of iterations is known?
-1. while
-2. do-while
-3. for
-4. foreach
-Enter your choice (1-4): 3
-✅ Correct!
+-   Applied **control flow & logic** to build a real-world mini
+    project.\
+-   Understood **Java collections** for managing questions & answers.\
+-   Strengthened **problem-solving & OOP concepts**.
 
-Q2: Which collection class allows dynamic arrays in Java?
-1. Array
-2. ArrayList
-3. HashMap
-4. Set
-Enter your choice (1-4): 2
-✅ Correct!
-
-Q3: Which statement is faster for multiple conditions?
-1. if-else
-2. switch-case
-3. ternary
-4. goto
-Enter your choice (1-4): 1
-❌ Wrong!
-
-===== Quiz Finished =====
-Your Score: 2/3
-
-🎯 Outcome
-
-Applied control flow & logic to build a real-world mini project.
-
-Understood Java collections for managing questions & answers.
-
-Strengthened problem-solving & OOP concepts.
+------------------------------------------------------------------------
